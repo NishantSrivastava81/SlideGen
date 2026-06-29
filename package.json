@@ -1,0 +1,18 @@
+{
+    "name": "form-not-canvas-spike",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "Spike: measure token cost of freehand pptxgenjs codegen vs schema JSON + a deterministic renderer, and prove the JSON renders to a real .pptx.",
+    "scripts": {
+        "measure": "node measure.mjs",
+        "render": "node render.mjs",
+        "generate": "node generate.mjs"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "gpt-tokenizer": "^2.5.0",
+        "openai": "^4.67.0",
+        "pptxgenjs": "^3.12.0"
+    }
+}
