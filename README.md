@@ -5,10 +5,10 @@ Schema-First Slide Generation: Let the Model Handle Meaning, Not Geometry.
 It shows two things:
 
 1. **Cost** — how many output tokens the model emits to "paint the deck" with
-   `pptxgenjs` code vs to "fill a form" (bounded JSON). Token counts are real
-   (o200k via `gpt-tokenizer`).
+   `pptxgenjs` code vs to schema based generation (bounded JSON). 
 2. **Render** — that the JSON turns into a real, editable `.pptx` with no model
    in the loop. A ~30-line deterministic renderer owns all geometry.
+
 
 ## Run
 
